@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondeActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linea1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+
+        <TextView
+            android:id="@+id/NameAnimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Penda geant "
+            android:textAlignment="center"
+
+            android:textSize="45dp"
+
+            />
+        <ImageView
+            android:layout_width="198dp"
+            android:layout_height="170dp"
+            android:id="@+id/image"
+            android:layout_marginLeft="100dp"
+            app:srcCompat="@drawable/bear"
+            android:layout_marginTop="25dp"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:text="Esperance de Vie Max" />
+
+        <TextView
+            android:id="@+id/TextVie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="15 années"
+            android:textSize="17sp"
+            android:layout_marginLeft="33dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:id="@+id/textPeriod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Periode de gestation"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/periode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="130  jours"
+            android:ems="10"
+            android:layout_weight="1"
+            android:textSize="17sp"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="42dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Poinds de naissance "
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/poindNai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.1 Kg"
+            android:ems="10"
+            android:textSize="17sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="41dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Poinds de l'age Adulte "
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/poidAdul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15  Kg"
+            android:textSize="17sp"
+            android:ems="10"
+            android:layout_weight="1"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="33dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status de Conversation "
+            android:textSize="17sp"/>
+        <EditText
+            android:id="@+id/Status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:layout_marginLeft="19dp"
+            android:inputType="textPersonName"
+            android:text="Vulnerabilité"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/button"
+        android:textSize="17sp"
+        android:text="Sauvegarder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="22dp"/>
+
+</LinearLayout>
+
+
