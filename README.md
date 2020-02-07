@@ -2,4 +2,3 @@
 #ADAMA DIA SYR TD2
 #TP1_APP_MOBILE
 
-#je vais finir bientot
